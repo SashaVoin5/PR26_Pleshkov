@@ -28,12 +28,14 @@ public class MainActivity4 extends AppCompatActivity {
     TextView textname;
     Button but;
     Button but2;
+    Button but4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
         but2 = findViewById(R.id.button4);
         but = findViewById(R.id.button3);
+        but4 = findViewById(R.id.button10);
         textcost = findViewById(R.id.textView7);
         spin = findViewById((R.id.spinner));
         sw1 = findViewById((R.id.switch4));
@@ -106,6 +108,12 @@ public class MainActivity4 extends AppCompatActivity {
         but2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 Intent intent = new Intent(MainActivity4.this, MainActivity2.class);
+                startActivity(intent);
+            }
+        });
+        but4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity7.class);
                 startActivity(intent);
             }
         });
