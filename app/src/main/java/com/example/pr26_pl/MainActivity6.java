@@ -28,6 +28,7 @@ public class MainActivity6 extends AppCompatActivity {
     TextView textname;
     Button but;
     Button but2;
+    Button but3;
 
 
     @Override
@@ -36,6 +37,7 @@ public class MainActivity6 extends AppCompatActivity {
         setContentView(R.layout.activity_main6);
         but2 = findViewById(R.id.button4);
         but = findViewById(R.id.button3);
+        but3 = findViewById(R.id.button10);
         textcost = findViewById(R.id.textView7);
         spin = findViewById((R.id.spinner));
         sw1 = findViewById((R.id.switch4));
@@ -108,6 +110,12 @@ public class MainActivity6 extends AppCompatActivity {
         but2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 Intent intent = new Intent(MainActivity6.this, MainActivity2.class);
+                startActivity(intent);
+            }
+        });
+        but3.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view){
+                Intent intent = new Intent(MainActivity6.this, MainActivity7.class);
                 startActivity(intent);
             }
         });

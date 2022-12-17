@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity6">
 
     <TextView
         android:id="@+id/textView4"
@@ -198,5 +198,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.151"
         app:layout_constraintStart_toEndOf="@+id/imageView10" />
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="49dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="452dp"
+        app:icon="@drawable/premium_icon_shopping_bag_2956820_1"
+        app:iconPadding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.451" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -90,7 +90,15 @@ public class MainActivity7 extends AppCompatActivity {
                     if(costtovar == 140){
                         imageView.setImageResource(R.drawable.coffee_next);
                     }
-
+                    else if(costtovar == 70){
+                        imageView.setImageResource(R.drawable.tea);
+                    }
+                    else if(costtovar == 320){
+                        imageView.setImageResource(R.drawable.litebreakfast);
+                    }
+                    else if(costtovar == 250){
+                        imageView.setImageResource(R.drawable.tort);
+                    }
 
                     result.append(String.valueOf(costtovar+230) + " рублей");
                 }
