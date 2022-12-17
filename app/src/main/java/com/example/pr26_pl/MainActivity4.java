@@ -28,7 +28,6 @@ public class MainActivity4 extends AppCompatActivity {
     TextView textname;
     Button but;
     Button but2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

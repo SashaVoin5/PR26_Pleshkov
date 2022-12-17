@@ -29,6 +29,7 @@ public class MainActivity6 extends AppCompatActivity {
     Button but;
     Button but2;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
